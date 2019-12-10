@@ -11,7 +11,6 @@ Create a Service Principal
                             --sdk-auth
 {
   "clientId": "496a6f8f-3de9-49d8-a96f-920ec6922102",
-  "clientSecret": "cb71f8c6-4c0a-404d-aab7-0a0e6b046ff8",
   "subscriptionId": "4fd85f80-d7c8-46d0-9b86-ba3b7402377a",
   "tenantId": "6065c98a-b00b-42a9-a805-f81775ebdf92",
   "activeDirectoryEndpointUrl": "https://login.microsoftonline.com",
