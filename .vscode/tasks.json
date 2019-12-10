@@ -1,4 +1,5 @@
 {
+    "version": "2.0.0",
     "tasks": [
         {
             "label": "clean",
@@ -11,7 +12,7 @@
             "type": "process",
             "problemMatcher": "$msCompile",
             "options": {
-                "cwd": "${workspaceFolder}/helloworld"
+                "cwd": "${workspaceFolder}/actions"
             }
         },
         {
@@ -30,7 +31,7 @@
             },
             "problemMatcher": "$msCompile",
             "options": {
-                "cwd": "${workspaceFolder}/helloworld"
+                "cwd": "${workspaceFolder}/actions"
             }
         },
         {
@@ -46,7 +47,7 @@
             "type": "process",
             "problemMatcher": "$msCompile",
             "options": {
-                "cwd": "${workspaceFolder}/helloworld"
+                "cwd": "${workspaceFolder}/actions"
             }
         },
         {
@@ -63,14 +64,14 @@
             "dependsOn": "clean release",
             "problemMatcher": "$msCompile",
             "options": {
-                "cwd": "${workspaceFolder}/helloworld"
+                "cwd": "${workspaceFolder}/actions"
             }
         },
         {
             "type": "func",
             "dependsOn": "build",
             "options": {
-                "cwd": "${workspaceFolder}/helloworld/bin/Debug/netcoreapp2.1"
+                "cwd": "${workspaceFolder}/actions/bin/Debug/netcoreapp2.1"
             },
             "command": "host start",
             "isBackground": true,
